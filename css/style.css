@@ -8,7 +8,10 @@ main{
 }
 .banner-section{
     height: 100vh;
-    padding-top: 150px;
+}
+
+.banner-section div, .banner-section div{
+    height: inherit;
 }
 
 .get-started{
