@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-light border-0">
-            <div class="container ">
+            <div class="container-fluid ">
                 <a class="navbar-brand" href="">
                     <img src="images/logo/logo.jpeg" id="salutelogo" alt="aimone logo" style="width:100%; height:43px;"> 
                 </a>

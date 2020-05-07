@@ -17,5 +17,8 @@ main{
     color: white;
 }
 .branding-text{
-    color:#73085C
+    color:#73085C;
+    font-size: 4.5rem;
+    font-weight:bold;
+    line-height: 1.2;
 }
