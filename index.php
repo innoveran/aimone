@@ -49,8 +49,8 @@
 
     <main>
         <section class="banner-section">
-            <div class="row">
-                <div class="col-md-7">
+            <div class="row mx-0">
+                <div class="col-md-7 pl-5 pt-5">
                     <h2 class="branding-text">Branding Your Way</h2>
                     <p>Lets help you communicate your brand values creatively</p>
                     <button class="get-started px-4 py-2">Get Started</button>
