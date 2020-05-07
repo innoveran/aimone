@@ -9,6 +9,15 @@ main{
 .banner-section{
     height: 100vh;
 }
+.banner-section-text{
+    padding-top: 270px;
+    padding-left: 90px;
+}
+
+.banner-section-img{
+    padding-top: 80px;
+    padding-right: 50px;
+}
 
 .banner-section div, .banner-section div{
     height: inherit;
