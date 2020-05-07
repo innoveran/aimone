@@ -6,9 +6,61 @@
     <title>Aimone | Creative Agency</title>
     <link rel="icon" type="image/jpeg" href="images/favicon.jpeg">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>testing</p> 
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light border-0">
+            <div class="container ">
+                <a class="navbar-brand" href="">
+                    <img src="images/logo/logo.jpeg" id="salutelogo" alt="aimone logo" style="width:100%; height:43px;"> 
+                </a>
+                <button class="navbar-toggler" type="button" id="smsidebar" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto buffer-bold ">
+                        <!-- Authentication Links -->
+                        <li class="nav-item">
+                            <a href="" class="nav-link portsol">ABOUT US</a>
+                        </li>
+                        <li class="nav-item action-btn-outline">
+                            <a href="" class="nav-link btn text-left">SERVICES</a>
+                        </li>
+                        <li class="nav-item action-btn-outline">
+                            <a href="" class="nav-link btn text-left">GALLERY</a>
+                        </li>
+                        <li class="nav-item action-btn-outline">
+                            <a href="" class="nav-link btn text-left">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner-section">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>Branding Your Way</h2>
+                    <p>Lets help you communicate your brand values creatively</p>
+                    <button class="get-started">Get Started</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/banner/banner-image.png" alt="" class="width:100%; height:100%">
+                </div>
+            </div>
+        </section>
+    </main>
     
 
     <!-- jQuery library -->
