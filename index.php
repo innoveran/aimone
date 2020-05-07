@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-light border-0">
             <div class="container-fluid ">
-                <a class="navbar-brand" href="">
+                <a class="navbar-brand" href="" style="padding-left: 55px;">
                     <img src="images/logo/logo.jpeg" id="salutelogo" alt="aimone logo" style="width:40%; height:43px;"> 
                 </a>
                 <button class="navbar-toggler" type="button" id="smsidebar" >
