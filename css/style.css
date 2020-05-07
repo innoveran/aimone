@@ -7,4 +7,9 @@ main{
 
 .get-started{
     border-radius: 22px;
+    background-color: #73085C;
+    color: white;
+}
+.branding-text{
+    color:#73085C
 }

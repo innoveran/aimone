@@ -51,12 +51,12 @@
         <section class="banner-section">
             <div class="row">
                 <div class="col-md-7">
-                    <h2>Branding Your Way</h2>
+                    <h2 class="branding-text">Branding Your Way</h2>
                     <p>Lets help you communicate your brand values creatively</p>
-                    <button class="get-started">Get Started</button>
+                    <button class="get-started px-4 py-2">Get Started</button>
                 </div>
                 <div class="col-md-5">
-                    <img src="images/banner/banner-image.png" alt="" class="width:100%; height:100%">
+                    <img src="images/banner/banner-image.png" alt="" style="width:100%; height:100%">
                 </div>
             </div>
         </section>
