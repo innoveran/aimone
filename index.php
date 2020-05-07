@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-md navbar-light border-0">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="">
-                    <img src="images/logo/logo.jpeg" id="salutelogo" alt="aimone logo" style="width:100%; height:43px;"> 
+                    <img src="images/logo/logo.jpeg" id="salutelogo" alt="aimone logo" style="width:40%; height:43px;"> 
                 </a>
                 <button class="navbar-toggler" type="button" id="smsidebar" >
                     <span class="navbar-toggler-icon"></span>
@@ -51,8 +51,8 @@
         <section class="banner-section">
             <div class="row mx-0">
                 <div class="col-md-7 pl-5 pt-5">
-                    <h2 class="branding-text">Branding Your Way</h2>
-                    <p>Lets help you communicate your brand values creatively</p>
+                    <h2 class="branding-text display-3">Branding Your Way</h2>
+                    <p class="">Lets help you communicate your brand values creatively</p>
                     <button class="get-started px-4 py-2">Get Started</button>
                 </div>
                 <div class="col-md-5">
