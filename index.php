@@ -51,7 +51,7 @@
                 </div>
             </div>
             
-            <div class="row mx-0 d-sm-none d-md-flex">
+            <div class="row mx-0 d-none d-md-flex">
                 <div class="col-md-7 banner-section-text">
                     <h2 class="branding-text display-4">Branding Your Way</h2>
                     <div class="col-md-5 banner-section-img d-block d-md-none">
