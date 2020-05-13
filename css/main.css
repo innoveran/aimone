@@ -1,0 +1,92 @@
+body, nav{
+    font-family: Roboto;
+    width:100vw;
+    background-color: #f7f1f5;
+}
+.head-nav{
+    position: absolute;
+    width: 100%;
+}
+
+main, #navbarSupportedContent{
+    background-color: #f7f1f5;
+}
+
+#navbarSupportedContent{
+    background-color: #f7f1f5;
+    z-index: 22;
+}
+
+.banner-section{
+    height: 100vh;
+}
+
+h2, .nav-item{
+    font-family: "Arial Rounded MT Bold";
+}
+
+.banner-section-text{
+    padding-top: 320px;
+    padding-left: 220px;
+}
+
+.banner-section-img{
+    padding-top: 80px;
+    padding-right: 50px;
+}
+
+.banner-section div, .banner-section div{
+    height: inherit;
+}
+
+.get-started-mobile{
+    border-radius: 22px;
+    background-image:  linear-gradient(to right, #73085C , #73085c94);
+    color: white;
+    width: 100%;
+}
+
+.get-started{
+    border-radius: 22px;
+    background-image:  linear-gradient(to right, #73085C , #73085c94);
+    color: white;
+    border-width: 1px;
+}
+
+.branding-text{
+    color:#73085C;
+}
+
+.company-color{
+    color:#73085C
+}
+
+.banner-space-sm{
+    padding-top: 100px;
+}
+
+.banner-space-sm div{
+    height: 100%;
+}
+
+.banner-title-mobile{
+    font-size: 35px;
+}
+
+.banner-description{
+    font-size: 20px;
+}
+
+.solutions{
+    background-color: #73085C;
+}
+
+.experience1{
+    padding-left: 90px;
+}
+
+.experience2{
+    padding-right: 100px;
+}
+
+
