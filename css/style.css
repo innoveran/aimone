@@ -1,17 +1,31 @@
-header{
+body{
+    font-family: Roboto;
+}
+.head-nav{
     position: absolute;
     width: 100%;
 }
 
-main{
+main, #navbarSupportedContent{
     background-color: #f7f1f5;
 }
+
+#navbarSupportedContent{
+    background-color: #f7f1f5;
+    z-index: 22;
+}
+
 .banner-section{
     height: 100vh;
 }
+
+h2{
+    font-family: "Arial Rounded MT Bold";
+}
+
 .banner-section-text{
     padding-top: 270px;
-    padding-left: 90px;
+    padding-left: 220px;
 }
 
 .banner-section-img{
@@ -23,11 +37,40 @@ main{
     height: inherit;
 }
 
+.get-started-mobile{
+    border-radius: 22px;
+    background-color: #73085C;
+    color: white;
+    width: 100%;
+}
+
 .get-started{
     border-radius: 22px;
     background-color: #73085C;
     color: white;
 }
+
 .branding-text{
     color:#73085C;
 }
+
+.company-color{
+    color:#73085C
+}
+
+.banner-space-sm{
+    padding-top: 100px;
+}
+
+.banner-space-sm div{
+    height: 100%;
+}
+
+.banner-title-mobile{
+    font-size: 35px;
+}
+
+.banner-description{
+    font-size: 20px;
+}
+
