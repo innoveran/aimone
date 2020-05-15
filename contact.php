@@ -91,9 +91,7 @@
                                 </div>
                                 <div class="info-content">
                                     <h6>Our Phone</h6>
-                                    <!--
-                                    <span>+234 909 999 9961</span>
-                                    -->
+                                    <span>+234 902 225 9305</span>
                                 </div>
                             </div>
                         </div>
@@ -105,9 +103,8 @@
                                 </div>
                                 <div class="info-content">
                                     <h6>Mail address</h6>
-                                    <span>sales@</span><br>
-                                    <span>support@</span><br>
-                                    <span>devops@</span>
+                                    <span>hr@aimoneart.com</span><br>
+                                    <span>info@aimoneart.com</span>
                                 </div>
                             </div>
                         </div>
