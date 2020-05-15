@@ -74,7 +74,7 @@
                         <img src="images/logo/logo.png" class="card-img-top" alt="">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">Brand Identity Design</h4>
-                            <p class="card-text">Lets help you communicate your brand values creatively</p>
+                            <p class="card-text text-white">We provide businesses with professional brand development services, that best position them properly to succeed</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                         <img src="images/logo/logo.png" class="card-img-top" alt="">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">UI/UX Design</h4>
-                            <p class="card-text">Lets help you communicate your brand values creatively</p>
+                            <p class="card-text text-white">Want to make your business visible to the world? Our team of UI/UX Designers have you covered</p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                         <img src="images/logo/logo.png" class="card-img-top" alt="">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">Graphic Design</h4>
-                            <p class="card-text">Lets help you communicate your brand values creatively</p>
+                            <p class="card-text text-white">For Marketing copies that convert easily. we are your best plug.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <img src="images/logo/logo.png" class="card-img-top" alt="">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">Web/Mobile App Development</h4>
-                            <p class="card-text">Lets help you communicate your brand values creatively</p>
+                            <p class="card-text text-white">Want to create Web App experiences that will make your customers in awe? Our team of professionals has got you covered.</p>
                         </div>
                     </div>
                 </div>
@@ -111,11 +111,23 @@
             <div class="row mx-0">
                 <div class="col-md-6 mb-5 mb-md-0 experience1">
                     <img src="images/logo/logo.png" alt="" class="float-left rounded-circle mr-3" style="width:20%; height:100%">
-                    <p>All I have to do is tell them my ideas and they tend to exceed my expectations. I have been able to embark on marketing campaigns that converts majorly because of the creatives.</p>
+                    <div>
+                        <p>Aimone creative Agency always treats our projects with professionalism and ensure they satisfy us. they have helped us best translate our values through their creatives.</p>
+                    
+                            <h6><strong>Aisha Mosebolatan Itua</strong> <br>
+                            <small>CEO Yeesha Trends</small>
+                            </h6>
+                    </div>
                 </div>
                 <div class="col-md-6 experience2">
                     <img src="images/logo/logo.png" alt="" class="float-left rounded-circle mr-3" style="width:20%; height:100%">
-                    <p>All I have to do is tell them my ideas and they tend to exceed my expectations. I have been able to embark on marketing campaigns that converts majorly because of the creatives.</p>
+                    <div>
+                        <p>All I have to do is tell them my ideas and they tend to exceed my expectations. I have been able to embark on marketing campaigns that converts majorly because of the creatives.</p>
+                    
+                        <h6><strong>Olayinka Shamsideen Atunde</strong> <br>
+                        <small>CEO Yikodeen Footwear Limited</small>
+                        </h6>
+                    </div>
                 </div>
             </div>
         </section>

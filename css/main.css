@@ -40,6 +40,7 @@ h2, .nav-item{
 }
 
 .get-started-mobile{
+    border-width: 1px;
     border-radius: 22px;
     background-image:  linear-gradient(to right, #73085C , #73085c94);
     color: white;
@@ -87,6 +88,40 @@ h2, .nav-item{
 
 .experience2{
     padding-right: 100px;
+}
+
+#formsend, .info-icon i, .info-content h6 {
+    background-image: linear-gradient(to right, #73085C , #73085c94) !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .experience1{
+        padding-left: 15px;
+    }
+    
+    .experience2{
+        padding-right: 0px;
+    }
+
+    input[type='text'] {
+        width: 100% !important;
+    }
+
+    .contact-form-area {
+        padding: 50px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
 
 
