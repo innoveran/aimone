@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(empty($_SESSION['state']))
+    {
+    $_SESSION['state'] = "";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,20 +61,29 @@
                                 <h3>Leave a Message</h3>
                             </div>
                             <div class="contact-form">
-                                <form action="/formrequest" method="post">
+                                <?php 
+                                    if(!empty($_SESSION['state']))
+                                    {
+                                        echo $_SESSION['state'];
+                                        unset($_SESSION['state']);
+                                    }else{
+                                        echo $_SESSION['state'];
+                                        unset($_SESSION['state']);
+                                    }
+                                ?>
+                                <form action="phpprocess/contactprocess.php" method="post">
                                     <input type="text" placeholder="First Name" name="firstname" required>
                                     <input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Last Name" name="lastname" required>
                                     <select name="solution" id="" class="form-control mt-5" style="border-top:0px;border-color:#374553">
                                         <option value="" disabled selected>Select Soution</option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
+                                        <option value="Brand Design">Brand Identity Design</option>
+                                        <option value="UI/UX Design">UI/UX Design</option>
+                                        <option value="Graphic Design">Graphic Design</option>
+                                        <option value="App Development">Web/Mobile App Development</option>
                                         <option value="others">Others</option>
                                     </select>
                                     <input class="margin-top-lb-30 margin-top-sb-30" type="email" placeholder="Enter your email" name="email">
-                                    <textarea placeholder="Write your message" name="message"></textarea>
-                                    <input type="hidden" name="qoutetype"  id="qoutetype" value="sales">
+                                    <textarea placeholder="Write your message" name="message" required></textarea>
                                     <div class="send-btn">
                                         <input type="submit" value="send me" id="formsend">
                                     </div>

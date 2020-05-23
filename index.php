@@ -9,35 +9,12 @@
     <link href="//db.onlinewebfonts.com/c/ef6bdf5ef216552c7e9869841e891ca0?family=Arial+Rounded+MT+Bold" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-denger py-0 head-nav">
-        <div class="container">
-            <a class="navbar-brand  text-dark py-0 nav-anchor" href="index.php">
-                <img src="images/logo/logo.png" alt="Property Realty Logo" style="width:133.3px;height:70px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon company-color"><i class="fas fa-bars "></i></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="" class="nav-link btn text-left">ABOUT US</a>
-                    </li>
-                    <li class="nav-item action-btn-outline">
-                        <a href="" class="nav-link btn text-left">SERVICES</a>
-                    </li>
-                    <li class="nav-item action-btn-outline">
-                        <a href="" class="nav-link btn text-left">GALLERY</a>
-                    </li>
-                    <li class="nav-item action-btn-outline">
-                        <a href="contact.php" class="nav-link btn text-left">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <?php include_once('includeextra/nav.php'); ?>
     </nav> 
 
     <main>
@@ -71,7 +48,7 @@
             <div class="row mx-0">
                 <div class="col-md-3">
                     <div class="card border-0" style="background-color:#fff0">
-                        <img src="images/logo/logo.png" class="card-img-top" alt="">
+                        <img src="images/solutions/brand.png" class="card-img-top" alt="" style="width:100%">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">Brand Identity Design</h4>
                             <p class="card-text text-white">We provide businesses with professional brand development services, that best position them properly to succeed</p>
@@ -80,7 +57,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0" style="background-color:#fff0">
-                        <img src="images/logo/logo.png" class="card-img-top" alt="">
+                        <img src="images/solutions/graphics.png" class="card-img-top" alt="">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">UI/UX Design</h4>
                             <p class="card-text text-white">Want to make your business visible to the world? Our team of UI/UX Designers have you covered</p>
@@ -89,7 +66,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0" style="background-color:#fff0">
-                        <img src="images/logo/logo.png" class="card-img-top" alt="">
+                        <img src="images/solutions/ui.png" class="card-img-top" alt="">
                         <div class="card-body text-white">
                             <h4 class="card-title text-center">Graphic Design</h4>
                             <p class="card-text text-white">For Marketing copies that convert easily. we are your best plug.</p>
@@ -119,7 +96,7 @@
                             </h6>
                     </div>
                 </div>
-                <div class="col-md-6 experience2">
+                <div class="col-md-6 experience2 pb-5">
                     <img src="images/logo/logo.png" alt="" class="float-left rounded-circle mr-3" style="width:20%; height:100%">
                     <div>
                         <p>All I have to do is tell them my ideas and they tend to exceed my expectations. I have been able to embark on marketing campaigns that converts majorly because of the creatives.</p>
@@ -132,7 +109,9 @@
             </div>
         </section>
     </main>
-    
+    <footer class="pt-5">
+        <?php include_once('includeextra/footer.php'); ?>
+    </footer>
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

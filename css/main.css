@@ -94,6 +94,29 @@ h2, .nav-item{
     background-image: linear-gradient(to right, #73085C , #73085c94) !important;
 }
 
+.footer-list li {
+    margin-bottom: .25rem;
+}
+
+.footer-text-color {
+    color: #bab5df;
+}
+
+footer {
+    background-color: #212331;
+    font-size: 0.9rem;
+}
+
+.footer-anchor li a {
+    color: #bab5df;
+}
+
+.footer-anchor-media li a {
+    background: transparent;
+    border: 1px solid #6e679b;
+    font-size: 11px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
